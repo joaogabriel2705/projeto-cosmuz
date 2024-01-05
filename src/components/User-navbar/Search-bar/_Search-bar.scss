@@ -1,0 +1,29 @@
+@use '../../../scss/partials/colors' as color;
+@use '../../../scss/partials/layout' as layout;
+@use '../../../scss/partials/typography' as typography;
+
+.searchbar {
+    min-width: 28vw;
+    border: 2px solid;
+    display: flex;
+    border-radius: layout.$borderRadius-rounded;
+
+    &__input {
+        width: 100%;
+        
+        background-image: url("../../../assets/svg/icons/search-icon.svg");
+        background-repeat: no-repeat;
+        background-position: initial;
+        background-position-y: center;
+
+        border-radius: inherit;
+        padding: layout.$layout-padding-small layout.$layout-padding-small 
+                layout.$layout-padding-small calc(layout.$layout-padding-big * 2);
+        border: none;
+        outline: none;
+
+        &::placeholder {
+            color: color.$font-color-rgba;
+        }
+    }
+}
