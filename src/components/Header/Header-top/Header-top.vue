@@ -14,13 +14,13 @@
             </li>
 
             <li class="list-links__item">
-                <a href="#" class="item__link">Contribua</a>
+                <a href="https://github.com/joaogabriel2705/projeto-cosmuz" class="item__link" target="_blank">Contribua</a>
             </li>
         </ul>
 
         <ul class="header-top__list-social-media">
             <li class="list-social-media__item">
-                <a href="#" class="item__link">
+                <a href="https://github.com/joaogabriel2705/projeto-cosmuz" class="item__link" target="_blank">
                     <img src="../../../assets/svg/icons/github-icon.svg" class="icon icon--github" alt="icon github">
                 </a>
             </li>
