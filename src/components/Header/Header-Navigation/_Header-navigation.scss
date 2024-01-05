@@ -1,0 +1,22 @@
+@use '../../../scss/partials/colors' as color;
+@use '../../../scss/partials/typography' as typography;
+@use '../../../scss/partials/layout' as layout;
+
+.header-navigation {
+    padding: layout.$layout-margin;
+    background-color: color.$backgroundColor-component-header;
+
+    &__list {
+        list-style: none;
+        
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+
+        .nav-item__link {
+            text-decoration: none;
+            color: color.$font-color;
+        }
+    }
+}

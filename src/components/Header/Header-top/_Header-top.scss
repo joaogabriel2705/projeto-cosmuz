@@ -1,0 +1,41 @@
+@use '../../../scss/partials/colors' as color;
+@use '../../../scss/partials/typography' as typography;
+@use '../../../scss/partials/layout' as layout;
+
+
+.header-top {
+    padding: layout.$layout-margin;
+    background-color: color.$secondary-color;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+    &__list-links {
+        display: flex;
+        gap: 1.2em;
+
+        list-style: none;
+
+        .item__link {
+            text-decoration: none;
+            color: color.$font-color-alternative;
+        }
+    }
+
+    &__list-social-media {
+        list-style: none;
+        
+        display: flex;
+        align-items: center;
+        gap: 1.2em;
+
+  
+        .icon {
+            width: 24px;
+            fill: color.$font-color-alternative;
+        }
+    }
+ 
+}

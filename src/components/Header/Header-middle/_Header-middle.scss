@@ -1,0 +1,15 @@
+@use '../../../scss/partials/colors' as color;
+@use '../../../scss/partials/typography' as typography;
+@use '../../../scss/partials/layout' as layout;
+
+.header-middle {
+    padding: 1.8em 5%;
+    background-color: color.$backgroundColor-component-header;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+    border-bottom: 2px solid color.$secondary-color;
+}
