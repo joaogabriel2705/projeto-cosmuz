@@ -21,5 +21,5 @@
 
 
 <style lang="scss" scoped>
-    @import 'Button.scss';
+    @import '_Button.scss';
 </style>
